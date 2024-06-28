@@ -1,0 +1,110 @@
+@font-face {
+    font-family:neo;
+    src: url(font/Janna_LT_Regular.ttf);
+    }
+
+*{
+
+    font-family:neo ;
+}
+:root{
+    --first-color:#455E73;;
+    --second-color:#aaa69d;
+    --third-color:#4e90c7;
+    --f-color:#f9f9f9;
+
+}
+body{
+    background-color:#f9f9f9;
+    
+}
+a,a:hover{
+    text-decoration: none;
+}
+.content{
+    margin-bottom: 400px;
+    max-height:400px;
+    margin-top: 0px;
+}
+#side-area{
+    background-color:#fff;
+    color:var(--first-color);
+    padding:20px 0;
+    max-height:385px;
+}
+
+#side-area h4{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+#side-area ul{
+    list-style:none;
+    padding:0;
+}
+
+#side-area ul li{
+    
+    margin-bottom:5px;
+    padding:5px ;
+    border-bottom:1px solid var(--second-color);
+}
+#side-area ul li a{
+    color:#4e90c7;
+    font-size:20px;
+}
+
+#side-area #dep li a{
+    color:#02598C;
+}
+#side-area #news li a{
+    color:#02598C;
+}
+#side-area #students li a{
+    color:#02598C;
+}
+/*************categories***************/
+
+.btn-custom{
+    background-color:var(--first-color);
+    color:#fff;
+    width:110px;
+    border:1px solid var(--first-color);
+}
+
+.btn-custom2{
+    background-color:var(--first-color);
+    color:#fff;
+    width:170px;
+    border:1px solid var(--first-color);
+    
+}
+.sidebtn{
+    color:#fff;
+    width:120px;
+    margin-right: 100px;
+
+}
+
+.titbtn{
+    text-align:center !important;
+}
+
+
+
+
+.thh{
+    color:#fff;
+    background-color: var(--first-color)!important;
+    border: none;
+
+}
+
+.formcp{
+    background-color:#fff;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+.main-area{
+    margin-top:0px;
+}
